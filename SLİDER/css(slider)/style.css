@@ -1,0 +1,18 @@
+
+.slider-wrapper { 
+	width:960px;
+	height:350px;
+	margin:0px auto;
+
+}
+
+.theme-default #slider {
+    margin: auto 0 auto;
+}
+
+/*====================*/
+/*=== Other Styles ===*/
+/*====================*/
+.clear {
+	clear:both;
+}

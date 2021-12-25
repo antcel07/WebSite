@@ -1,0 +1,122 @@
+@charset "utf-8";
+/* CSS Document */
+body{ background-image:url(images/background-1072755_960_720.jpg);}
+#anasayfa{width:1000px; height:1500px;  border-radius:5px;     margin:0px auto; }
+#ilkkutu{width:1000px; height:250px; background-image:url(images/3d-ithal-kore-duvar-kagidi-rhapsody-165m2-8033-3-15303-79-B.jpg); background-repeat:repeat-x; }
+
+
+#logo{width:150px; height:120px;  margin-left:50px; margin-top:60px; float:left;  }
+#baslik{width:500px; height:120px;  margin-left:10px; margin-top:60px; float:left; background-color:white; }
+#baslik p{color:#0a92ac;}
+.isim{ font-size:30px; font-weight:bold; text-align:center; color:orange; font-family:"Lucida Console", Monaco, monospace; }
+#uyeGiris {width:230px; height:120px;  float:left; margin-left:10px; margin-top:60px; background-color:white; }
+#uyeGiris h3 {text-align:center; margin-top:5px; color:#0a92ac;  margin-bottom:5px;}
+.kutu {width:180px; height:25px; margin-left:20px; margin-bottom:2px;}
+.kutu1 {width:180px; height:25px; margin-left:20px; }
+.kutu1 input {margin-left:13px;}
+
+#menu { width:1000px;   height:30px; text-align:center; background-color:orange;  padding-top:10px; }
+.yatayMenu {width:700px; height:20px;  margin-left:80px;  margin-top:0px;    }
+
+.yatayMenu ul {  padding:0px; margin:0px;}
+.yatayMenu li { float:left;  position:relative; width:120px; margin-right:20px; list-style-type:none; }
+.yatayMenu a:hover {background-color:white;}
+.yatayMenu li a:hover {color:orange;}
+.yatayMenu li ul { display:none;  position:absolute; top:21px;}
+.yatayMenu li a{ color:black; 
+ display:block; font:bold 12px Arial, Helvetica, sans-serif;
+  margin:0px;  padding:2px ; text-decoration:none; line-height:16px;}
+ .yatayMenu ul a:hover {background-color:white; color:orange;}
+ 
+  .yatayMenu li:hover ul { display:block;} 
+  
+  #arama { width:140px; height:25px; float:right; margin-right:20px; }
+  #aramaSag {width:30px; height:19px; float:right; margin-left:3px;    float:left;} 
+  #aramaSol {width:85px; height:19px; float:left; margin-left:3px;  float:left;}
+
+
+
+#ikincikutu{width:980px; height:370px;  margin-top:40px; clear:both;  margin-left:10px;}
+
+#ortakutu{width:970px; height:360px;  float:left; margin-top:5px;  }
+
+.slider-wrapper { 
+	width:960px;
+	height:350px;
+	margin:0px auto;
+	border-style:solid;
+
+}
+
+.theme-default #slider {
+    margin: auto 0 auto;
+}
+
+/*====================*/
+/*=== Other Styles ===*/
+/*====================*/
+.clear {
+	clear:both;
+}
+
+
+
+#ucuncukutu{width:1000px; height:260px;   margin-top:40px; 
+background-image:url(images/3d-ithal-kore-duvar-kagidi-rhapsody-165m2-8033-3-15303-79-B.jpg); clear:both;   }
+#resim1{width:190px; height:150px;  margin:10px; float:left; margin-left:83px; background-color:white; }
+#resim3{width:190px; height:150px;margin:10px; float:left;  background-color:white;} 
+.rsm{width:190px; height:150px;  margin:10px; float:left; }
+#kutu1{width:190px; height:50px;  margin:10px; clear:both; float:left; margin-left:83px;  }
+.box{width:190px; height:50px;  margin:10px; float:left;  text-align:center; padding-top:15px; background-color:white;}
+.box a{text-decoration:none; color:black; font-size:16px;}
+.box a:hover{color:orange;}
+
+
+#dorduncukutu{width:1000px; height:380px;     clear:both; }
+
+#yaziKutu {width:600px; height:350px; float:left; margin-left:20px; margin-top:10px;}
+
+#yaziKutuUst {width:575px; height:148px; float:left; margin-left:10px; margin-top:5px; }
+#ustResim {float:left; margin-left:5px; margin-top:5px;  width:97px; height:130px;}
+#yaziKutuUstYazi {float:left;  margin-left:5px; margin-top:5px;  width:450px; height:130px;}
+#yaziKutuUstYazi p {margin-bottom:5px; color:white;}
+.yazi {float:right; margin-top:0px;  margin-right:15px; background-color:white; border-radius:5px;}
+.yazi a {color:red; text-decoration:none;}
+.yazi a:hover {color:green;}
+
+#yaziKutuOrta { width:575px; height:15px; float:left; margin-left:10px; margin-top:5px; clear:both;}
+#yaziKutuOrta hr {color:white;}
+
+#yaziKutuAlt {width:575px; height:148px; float:left; margin-left:10px; margin-top:5px;  clear:both;}
+#altResim {float:left; margin-left:5px; margin-top:5px;  width:97px; height:130px;}
+#yaziKutuAltYazi {float:left;  margin-left:5px; margin-top:5px;  width:450px; height:130px;}
+#yaziKutuAltYazi p {margin-bottom:5px; color:white;}
+.yazi2 {float:right; margin-top:0px;  margin-right:15px; background-color:white; border-radius:5px; }
+.yazi2 a {color:red; text-decoration:none;}
+.yazi2 a:hover {color:green;}
+
+
+
+
+#leftbox{width:250px; height:350px; margin-left:55px; float:left; margin-top:10px; background-color:white; border-radius:10px;}
+#leftbox li {list-style-type:none;  list-style-image:url(images/checkmark.png);} 
+#leftbox li:hover {list-style-image:url(images/SimboloII-83x611.jpg);}
+#leftbox a{text-decoration:none; color:black;}
+#leftbox a:hover{color:orange;}
+#leftbox h4{text-align:center; color:red;}
+
+
+
+
+#besincikutu{width:1000px; height:75px;; background-image:url(images/3d-ithal-kore-duvar-kagidi-rhapsody-165m2-8033-3-15303-79-B.jpg); clear:both;}
+
+#altYazi {float:left; margin-left:90px; margin-top:15px; width:600px; height:40px; text-align:center; padding-top:10px;}
+#altYazi h3 {color:white; margin-top:0px; font-style:italic; font-weight:bold;}
+#ortakutuİcerik{ width:150px; height:30px; float:right; margin-right:10px; margin-top:20px;}
+.sosyalMedya{ width:30px; height:20px;   float:left; padding-left:20px;  margin-top:5px;  }
+
+
+
+
+
+

@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{ background-image:url(images/background-1072755_960_720.jpg);}
+#anasayfa{width:1000px; height:1752px;  border-radius:5px;     margin:0px auto;  }
+
+#ilkkutu{width:1000px; height:250px; background-image:url(images/3d-ithal-kore-duvar-kagidi-rhapsody-165m2-8033-3-15303-79-B.jpg); background-repeat:repeat-x; }
+
+
+#logo{width:150px; height:120px;  margin-left:50px; margin-top:60px; float:left;  }
+#baslik{width:500px; height:120px;  margin-left:10px; margin-top:60px; float:left; background-color:white; }
+#baslik p{color:#0a92ac;}
+.isim{ font-size:30px; font-weight:bold; text-align:center; color:orange; font-family:"Lucida Console", Monaco, monospace; }
+#uyeGiris {width:230px; height:120px;  float:left; margin-left:10px; margin-top:60px; background-color:white; }
+#uyeGiris h3 {text-align:center; margin-top:5px; color:#0a92ac;  margin-bottom:5px;}
+.kutu {width:180px; height:25px; margin-left:20px; margin-bottom:2px;}
+.kutu1 {width:180px; height:25px; margin-left:20px; }
+.kutu1 input {margin-left:13px;}
+
+#menu { width:1000px;   height:30px; text-align:center; background-color:orange;  padding-top:10px; }
+.yatayMenu {width:700px; height:20px;  margin-left:80px;  margin-top:0px;    }
+
+.yatayMenu ul {  padding:0px; margin:0px;}
+.yatayMenu li { float:left;  position:relative; width:120px; margin-right:20px; list-style-type:none; }
+.yatayMenu a:hover {background-color:white;}
+.yatayMenu li a:hover {color:orange;}
+.yatayMenu li ul { display:none;  position:absolute; top:21px;}
+.yatayMenu li a{ color:black; 
+ display:block; font:bold 12px Arial, Helvetica, sans-serif;
+  margin:0px;  padding:2px ; text-decoration:none; line-height:16px;}
+ .yatayMenu ul a:hover {background-color:white; color:orange;}
+ 
+  .yatayMenu li:hover ul { display:block;} 
+  
+  #arama { width:140px; height:25px; float:right; margin-right:20px; }
+  #aramaSag {width:30px; height:19px; float:right; margin-left:3px;    float:left;} 
+  #aramaSol {width:85px; height:19px; float:left; margin-left:3px;  float:left;}
+
+a{text-decoration:none; color:red;}
+a:hover{color:orange;}
+p {color:white; text-align:center;}
+h1 {color:white; text-align:center;}
+h2 {color:white; text-align:center;}
+h3 {color:white; text-align:center;}
+
+#icerik {clear:both; width:1000px; height:700px; float:left; }
+#icerikÜst { width:900px; height:200px; float:left; margin-left:40px; margin-top:20px;}
+
+#icerikAlt { width:900px; height:400px; float:left; margin-left:40px; margin-top:20px; clear:both;}
+
+
+
+.Solbox{padding-left:10px; float:left; width:250px; height:350px; margin-left:170px; float:left; margin-top:10px; background-color:white; }
+.Solbox h4{text-align:center; color:red;}
+.Solbox:hover {  border-color:red; background-color:yellow;}
+
+.Sagbox {padding-left:10px; float:left; width:250px; height:350px; margin-left:55px; float:left; margin-top:10px; background-color:white;}
+.Sagbox h4{text-align:center; color:red; }
+.Sagbox:hover {color:red; border-color:red;  background-color:yellow;}
+
